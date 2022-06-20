@@ -13,13 +13,7 @@ h1 {
     text-align: center; 
     text-decoration: underline;
     }
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(165, 217, 233); 
-    background-image: url(../Imagen/fondo.jpg); 
-    background-repeat: cover; background-attachment: fixed; 
-    }
+
 p {font-size:1.5 rem;}
 h2 {font-size: 1 rem; text-align: justify;}
 h3 {font-size: 1 rem; text-decoration: underline; 
@@ -32,11 +26,11 @@ nav {
 }
 
 nav a {
-    padding: 14px 20px;
+    padding: 14px 14px;
     color: black;
     background-color: aliceblue, 100%;
     border: 2px rgb(26, 15, 1) solid;
-    font-size: 1.8rem;
+    font-size: 1.rem;
     width: 50vw;
     height: 10vh;
     display: flex;
@@ -137,6 +131,7 @@ header {
        width: auto;
        display: block;
        background: yellowgreen;
+       font-size: 1.rem;
 
     }
 }
@@ -152,4 +147,7 @@ header {
     footer {
         display: none;
     }
+}
+.card-img-top{
+    height: 85%;
 }
